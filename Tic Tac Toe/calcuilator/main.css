@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    flex: content;
+}
+body{
+    background-color: rgb(173, 173, 173);
+}
+#main{
+    position: absolute;
+    width:280px;
+    height:410px;
+    left: 40%;
+    top:100px;
+    background-image: linear-gradient(-25deg,rgb(61, 61, 61),rgb(255, 255, 255),rgb(59, 59, 59));
+    border-radius:10px;
+}
+#monitor{
+    position: absolute;
+    background-image: linear-gradient(-180deg,rgb(114, 114, 114),rgb(255, 255, 255),rgb(77, 77, 77));
+    width: 100%;
+    height: 20%;
+    font-size: 40px;
+    overflow: hidden;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    
+}
+
+#tab1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 80%;
+    top: 24%;
+    border-radius:100px;
+}
+.clr{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: larger;
+    background-color: grey;
+    color: white;
+    
+}
+.btn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: larger;
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    border-color: rgb(105, 105, 105);
+}
+#tab2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 5%;
+    top: 37%;
+    border-radius:100px;
+}
+#tab3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 30%;
+    top: 37%;
+    border-radius:100px;
+}
+#tab4{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 55%;
+    top: 37%;
+    border-radius:100px;
+}
+
+
+@media screen and (max-width:700px) {
+    #main{
+        left: 24%;
+
+    }
+}
+
+@media screen and (max-width:400px){
+    #main{
+        left: 11%;
+
+    }
+}
